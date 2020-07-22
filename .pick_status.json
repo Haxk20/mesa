@@ -1,5 +1,275 @@
 [
     {
+        "sha": "04e38eb2e765aaa568b60af9a630be9f1161bad5",
+        "description": "docs: update calendar and link releases notes for 20.1.4",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8a44983c126f83002d2715d3a3d6ea4063701892",
+        "description": "docs: add release notes for 20.1.4",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b6b100ccaeeed44b948b7abf434f54b551c66d98",
+        "description": "gitlab-ci: Test AMD's Raven with traces",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "eb7642c53d09a245c3907a40e31013ee19a2e043",
+        "description": "i915: Remove a bunch of default handling of pipe caps.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e35d3d26b176c612c03b37d946a818d6c8027f72",
+        "description": "svga: Remove a bunch of default handling of pipe caps.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c32f723a1a61414208f6a4513fc717c09b6fed78",
+        "description": "swr: Use the default behavior of ALLOW_MAPPED_BUFFERS.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "39598a16e98c55ced0f1a16097b8499513cb6ac2",
+        "description": "swr: Remove a bunch of default handling of pipe caps.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e2ffd2110e98715fe4ebf8e8e7f3cc636e25d38e",
+        "description": "virgl: Remove a bunch of default handling of pipe caps.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e5554e32c0f07b4964bc9b5a31c8bff32d7e2fa0",
+        "description": "softpipe: Use the default behavior of ALLOW_MAPPED_BUFFERS.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "855f3ff41877d1d3c1e335e8db7de9ad0f45a06c",
+        "description": "softpipe: Remove a bunch of default handling of pipe caps.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6ec49066498097c2647d030ebe1b99a00bc38734",
+        "description": "llvmpipe: Use the default behavior of ALLOW_MAPPED_BUFFERS.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ae919b2561f281f6c7130fce504d31fdb259c941",
+        "description": "llvmpipe: Remove a bunch of default handling of pipe caps.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "292882f6bc41761e17427dcf60fa177e8964ad8d",
+        "description": "ci: Fix the overwriting of traces.yml for baremetal",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "dcd171f5e9bd612b33144c90e4b0c1ac919498f0"
+    },
+    {
+        "sha": "262731be430dea8c7650f88d88f673c1f40c173c",
+        "description": "ci: Update checksums for freedreno traces.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "46646123ab046bac6a83f9c8137da3bddecbfff8",
+        "description": "radeon/vcn: increase render_pic_list size",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "89d2dac55486464832552dfc3349054c29a82922",
+        "description": "radeonsi: enable preemption if the kernel enabled it",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9e2113c6dc132707db19461b77c8001b5475156a",
+        "description": "radeonsi: set up IBs for preemption",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b8892bc81820884cd42ada8699d0c28cb8e39dda",
+        "description": "radeonsi: don't restore states at the beginning of IBs if they're shadowed",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "95c9048591c6d3ccf597f73dfcde09028c7330c5",
+        "description": "radeonsi: add debug code for register shadowing",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8af0f91fd379ab696e32f9fbdd3e3983b3323288",
+        "description": "radeonsi: add reg shadowing codepaths to GS and tess ring setup",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "69014d8c94f99fbf0de26f3a76426a92762821a0",
+        "description": "radeonsi: implement CP register shadowing",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b84dbd29369c47215c7d25c52319b65c4d48c239",
+        "description": "radeonsi: reorder code in update_gs_ring_buffers and init_tess_factor_ring",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "babd87f2e0865fde1386c4797131c26265b2da09",
+        "description": "radeonsi: make cs_preamble_state optional",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "7a6af4c5edb314207bb8fd0faab1becd64b2efa0",
+        "description": "winsys/amdgpu: make amdgpu_bo_unmap non-static",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "5a5467ccc8045707635074b5c8a507d508a8a27d",
+        "description": "ac: add tables for CP register shadowing",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "dc3dade47509b4b620d88dde4718f1d66bef90a2",
+        "description": "ac: add helper ac_get_register_name",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "976edae839a7e549b2e046a5cc96d61f1da66b83",
+        "description": "radeonsi: sort registers in si_init_cs_preamble_state according to GPU gen",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "88fe9dea7a29fa1b99bf3c064d75a472071de4d1",
+        "description": "radeonsi: sort registers in si_emit_initial_compute_regs according to GPU gen",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1c6eca23fdd8bc112c70914100601d0e382a8154",
+        "description": "radeonsi/gfx10: set the correct value for OFFCHIP_BUFFERING",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "0bf3e6fae7f82b4f16fbcbb05a1ae47f7930e189"
+    },
+    {
+        "sha": "d244a25c072557edd1133356b94557938c000f78",
+        "description": "radeonsi: add missing initialization of registers",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "78cdf9a99f07679f95dacd9ae6712278a2e40202"
+    },
+    {
         "sha": "fd20e986249f88129d81353d79dd248d7664953b",
         "description": "docs: add some very basic documentation about zink",
         "nominated": false,
