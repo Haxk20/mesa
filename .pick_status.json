@@ -1,5 +1,761 @@
 [
     {
+        "sha": "3c2a1af660f13e3598069e07d2fdedffd350017c",
+        "description": "anv: Implement VK_EXT_4444_formats",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b44139ef369ea9dda91e50f67214d21cd47b9b10",
+        "description": "vulkan: Update Vulkan XML and headers to 1.2.149",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "070fd2b66f99464d3bc14f5e0e98c9313770c87c",
+        "description": "u_prim_restart: add inline function for getting restart index based on index size",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1f24c54458c64e073c91c4d98049266ac950f840",
+        "description": "iris: Zero the add-on clear color BO on import",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "c19492bcdb9ff5c5bf4092d2daff6e2e5d7bce1b"
+    },
+    {
+        "sha": "a9560939e07a9b15c0e655dc2c4f9b38190b6293",
+        "description": "ci: Build-test Panfrost tools",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "cd1c21f8e5bfa1d682ef4123a3418fe64adb9f83",
+        "description": "zink: implement handling for VK_EXT_calibrated_timestamps",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8930b196762294abb9069b261e502586d2d434bd",
+        "description": "zink: store valid timestamp bits onto zink_screen",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "3e6366be6851a29934fbc1baec96bc2eb2d7ad51",
+        "description": "zink: handle VK_EXT_vertex_attribute_divisor setup",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "99b44536bf2335989cad6ef33d148115fd4316cf",
+        "description": "zink: clamp PIPE_SHADER_CAP_MAX_SHADER_BUFFERS to PIPE_MAX_SHADER_BUFFERS",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "01d6220cffb806e82a089c8d3d727f206c63be5b",
+        "description": "zink: implement VK_EXT_robustness2",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b2f475251ed9fa8b37cb98372e64d6166d48a089",
+        "description": "pan/mdg: Test for SSA before chasing addresses",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "f5401cb8866cc74c5b3d0fde278fb1046779b415"
+    },
+    {
+        "sha": "b4de9e035ac0afe64ebfd58cd0eb04c1a671afce",
+        "description": "pan/mdg: Mask spills from texture write",
+        "nominated": true,
+        "nomination_type": 0,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "26dd8f80453fdd9b9c34509b52c6c888416cee0b",
+        "description": "swr: Bump maximum 2D texture size to 16kx16k",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "99cf9108340c2ccf7c1b05ec6f951e2e91b9c76c",
+        "description": "mesa/st: Actually free the driver part of memory objects on destruction.",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "49f4ecc67773c082d93708bdf111acc4248678da"
+    },
+    {
+        "sha": "63bff6a9f89d6b8fa3a57253edb2611dd4e226bc",
+        "description": "gallivm/nir: Lower uniforms to UBOs in llvm draw if the driver didn't request this already",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b54afde3ad631b33b42812c9ebf2225d9c53e38e",
+        "description": "android: freedreno: move a2xx disasm out of gallium",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "f39afda1a7a896820dae0a815a18531efd80f413"
+    },
+    {
+        "sha": "ca114e62735b04a5beccb09fb40a787f63e8324a",
+        "description": "android: freedreno/common: add support for libfreedreno_common static",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "9623debf48ae7dbea120389eae40d784d22eee24"
+    },
+    {
+        "sha": "f065ec43abaafa77b5f00a278c93e547f7fe60a2",
+        "description": "android: freedreno/ir3: fix include paths",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "f7bd3456d79aaeccb5f5e8d1408e85ad198f4f38"
+    },
+    {
+        "sha": "711c30b764ec32f7e43321d822e6b2aef53d386f",
+        "description": "android: freedreno/registers: fix generated headers rules",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "b721d336da94b2ea26744a2961d026081f6ba0a3"
+    },
+    {
+        "sha": "32e0f7e09721d4097f7b134b679053f48c216668",
+        "description": "anv: toggle on VK_EXT_extended_dynamic_state",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b9a05447a1976101c04a02f5588c51de0b0f6573",
+        "description": "anv: dynamic vertex input binding stride and size support",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e4590c07500941ae1afa82db5e4fea2111a68604",
+        "description": "anv: depth/stencil dynamic state support",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f6fa4a8000053fc6e9a25a30f482c59466390898",
+        "description": "anv: add support for dynamic primitive topology change",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f426663f9c77c745b82426580e24b5ba0c7ba43c",
+        "description": "anv: add support for dynamic viewport and scissor with count",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9220598b367458057922377c962d76ec79d9da06",
+        "description": "anv: add support for dynamic cull mode and winding order",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c34d8ac26e0a21c9036b4cfaf9e42c1e4298794f",
+        "description": "anv: handle dynamic viewport count",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "11f3fb9a4e2fbb8f57cb770fc6f4c90ef3338cb0",
+        "description": "anv: consider dynamic state when creating pipeline",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "65de778e0b592f76964631b1e9f87f2cb55a7861",
+        "description": "anv: add new dynamic states",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "2260ce6d0c5c47ff22eb59e321fc3458aa737019",
+        "description": "anv: add VK_EXT_extended_dynamic_state but leave it disabled",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a4181fcd422ddd2a58467eda338847db7c14efd1",
+        "description": "meson: fix `-D xlib-lease=auto` detection",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "e00adef34a5ce485e2c9216a268ca05e89a5fc98"
+    },
+    {
+        "sha": "c1476044b5525994cc317c81a5cb9da60d58755d",
+        "description": "egl: consistently use dri2_egl_display() helper macro",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "27eea627ef2c6f02a276c7fa05216e6fee98c9ee",
+        "description": "freedreno/afuc: Fix PM4 enum parsing",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a5daaed587caba51cd485791d75a2aaa30409b9f",
+        "description": "freedreno/afuc: Add missing rnn_prepdb()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8d0e5e062667fa995779575ce1015fb8d34eef9a",
+        "description": "freedreno/cffdec: Stop open-coding enum parsing",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "73241ca53e8e085b1e953ddb5afaa91c455eb038",
+        "description": "freedreno/rnn: Make rnn_decode_enum() respect variants",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b67695d59731c213941c609c0464bc0586e499ef",
+        "description": "egl/haiku: drop overwritten preset of EGL version",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9c6fa9421d57394600fbeade7a2ceb3e264bd108",
+        "description": "egl: const _eglDriver",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "81c0e2ab63d7ee823d9a096019243797f071410b",
+        "description": "egl: Allow software rendering for vgem/virtio_gpu in platform_device",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "eaf27eb512c5ffdedf8106e006448c5aabdfe447",
+        "description": "intel/tools: Test notification subregisters",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ac7ecd205b2ea98c57edd98633fc260523219296",
+        "description": "intel/tools: Simplify notification register handling",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "63181df09bc6fd833d2e22ce8ce80e17a5fa57d4",
+        "description": "intel/tools: Don't hardcode notification register",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "90c18ec8db8bed6e1a12ce0a5209c5d4ff1abf99",
+        "description": "intel/tools: Manually set ARF register file/nr/subnr",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "af6d6f5c4327307234990fed2c13a08afff8e689",
+        "description": "intel/tools: Pass integers, not enums, to stride()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c883c482be2ab4ab65e4905a447a0edf3e18418b",
+        "description": "intel/compiler: Relax SENDS regioning assertions",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "363e5ef5a5d43c0c59dbbdb3740f6bcadfb95a89",
+        "description": "intel/tools: Simplify dstregion",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "3d9c673c0f78f74cce1be91d976a45484963d0f0",
+        "description": "intel/tools: Simplify immediate handling",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "59801f07e70e057de4e84bc2be7bf6a00b4d8cbe",
+        "description": "intel/tools: Make writemask an integer",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e115c499da276e7cf397a40ae6b71adffae049c8",
+        "description": "intel/tools: Make swizzle an integer",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "3e1602cc4fd192eb3467b7abbfcf5e5827169cfb",
+        "description": "intel/tools: Simplify register type handling",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "2851c218e28cb06be5b5621465a14eedddd9bf05",
+        "description": "intel/tools: Don't allow empty type specifier",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6809b934113297786f53ffe716e99de774f498c2",
+        "description": "intel/tools: Remove stray newline",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "fdfbb1ed2622640eed3dae00c377e8b5d4073fd8",
+        "description": "intel/tools: Fix typos",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "2dec9092bee9e60e2ec127c55d9f89c0daf8ec12",
+        "description": "pan/bit: Remove BI_SHIFT stub",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "946ff9b439660cb762072da615f040f8aa433267"
+    },
+    {
+        "sha": "aa989aed6d68d50ff7900cfca4078ed4771c4b40",
+        "description": "pan/bit: Update f32->f16 convert test",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "8a4efe2d730cc61d42eefffd01ee0ae4f853ec0c"
+    },
+    {
+        "sha": "cf8a8b764e53c3c81ca9ec6e799281b248954ffe",
+        "description": "ci: Set date in LAVA DUTs from NTP servers",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "7f40db42a2d8af9565f5338acd96afb56d6f85b9",
+        "description": "docs: Explain how to set up a personal gitlab runner.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8e626879ddddbea7a68c4b9c9750a178f8b8c006",
+        "description": "freedreno/a6xx: Fix CP_BIN_SIZE_ADDRESS name",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6c11a7994dd8937035f4f9e49b63dd18b015bce6",
+        "description": "i965/i915: Add colorspace support to YUV sampling",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d8fdb8dab4658de2d255718627ee671e84fedf2d",
+        "description": "nir: Add colorspace support to YUV lowering pass",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f3509c07663bf72da43d3b47c391acd75d33430a",
+        "description": "zink: add extension loading framework for spirv builder",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a91011c9eca0e561475e476b7b6ab5da48a412c7",
+        "description": "pan/mdg: emit REGISTER_UNUSED on unused ALU src2",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a2065917cc8f95f76c2926d8d7cb4bf3c9ff7de1",
+        "description": "mapi: Return NULL function pointers for GL_EXT_debug_marker",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "258165bed4d5313a138b4375f8ed463fcba7fcb2",
+        "description": "egl: drop left-over function prototype",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ed3f1e04c7d2b5c17885919db5fde310d4bdf822",
+        "description": "egl: rename _eglMatchDriver() to _eglInitializeDisplay()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6d6b82a159cdc03587b18d6acec0c2e00f066677",
+        "description": "egl: inline _eglMatchAndInitialize() and refactor _eglMatchDriver()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a77050c03459689f8ea59e51da31c954006ce6ae",
+        "description": "egl: fix _eglMatchDriver() return type",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f91851e6159d9a025aac971b6772ef9904c9d803",
+        "description": "egl: drop unnecessary _eglGetDriver()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d24e3ea8cb2d953106d927a8d543ae2b495e911b",
+        "description": "egl: replace _eglInitDriver() with a simple variable",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "3d4deb659e138dbb4bbe3d351592c9eeadd7086a",
+        "description": "pan/mdg: remove ins->br_compact and ins->branch_extended",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8150c1d63203f8fcec962653b7714b5008667b64",
+        "description": "pan/mdg: defer branch packing",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "140185eb04791f38b0e6a9fc6ded009ba020ab08",
+        "description": "pan/mdg: refactor emit_alu_bundle",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "0f0f9ee710f1ea0d42f5abb17721133a4d95c7b7",
+        "description": "pan/mdg: remove ins->alu",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "5299239c2eab480f4fc1c3ee375d3d3f82102598",
+        "description": "pan/mdg: externalize mir_pack_mod",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1a4d165683ac3caf3ea0fdb207ca6d9e57970e2f",
+        "description": "pan/mdg: defer register packing",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "bea6a652db5f7d46545a4a91dcd11a2984c72c77",
+        "description": "pan/mdg: eliminate references to ins->load_store.op",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "92c808cd475c69841eaaf020505208f286ad38cc",
+        "description": "pan/mdg: eliminate references to ins->texture.op",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "83592de7ad2f3a2bd884638811a6c11fa3609a9b",
+        "description": "pan/mdg: apply float outmods to textures",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "5011373e2b48320abfa5aafbcd9c876f1815060a",
+        "description": "pan/mdg: eliminate references to ins->alu.outmod",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f34815c6bef5538de6a52c3c1f09b77130880b47",
+        "description": "pan/mdg: fix comment",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "5f7e0185cd9e93e19e3bbf9236458234f6448044",
+        "description": "pan/mdg: eliminate references to ins->alu.reg_mode",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f4c89bf9bdf2e194cb63778610f3dc690b761c06",
+        "description": "pan/mdg: eliminate references to ins->alu.op",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "598527f2febfd14b97d179363827f6c6a1d5281e",
+        "description": "pan/mdg: prepare effective_writemask()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b1b0ce04b3edef92f5a69ea9b8e0453348104757",
+        "description": "pan/mdg: fix src_type in instructions that need a implicit zero",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "75b1f3d39df4f098b3674adee52a9db41c1fa96a",
+        "description": "drm-shim: Return -EINVAL instead of abort()ing on unknown ioctls.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
         "sha": "c77a414ec2d3cfde3783300afcf59e4f87826b82",
         "description": "u_prim_restart: handle indirect draws",
         "nominated": false,
