@@ -1,5 +1,131 @@
 [
     {
+        "sha": "611f654fcf715364b65ca690c0521c3e3038824f",
+        "description": "nir/deref: Don't try to compare derefs containing casts",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "d8e3edb784d3afb313420fc8d58b491a57fad9c1"
+    },
+    {
+        "sha": "ee2f21b10dc786c83ff5dad716502429f6b26fb9",
+        "description": "nir: Remove the old nir_opt_shrink_load.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d8c2f896dba8b5e89f054dc9f6bffd27e3aceb25",
+        "description": "amd: Swap from nir_opt_shrink_load() to nir_opt_shrink_vectors().",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "023e6669cc1d7d321e0bd5b5293422cd73b3d658",
+        "description": "i965: Enable vector shrinking in the vec4 backend.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1c9906d5ff22234b4e2c5c1c81a42a8766706b34",
+        "description": "nir: Add a pass to cut the trailing ends of vectors.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "5afaec3741384da0702d3bf75aebd0af6fd07d8b",
+        "description": "turnip: workaround for a630 d24_unorm_s8_uint fails",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6fc52739bb49bd2ac94e909dcfe05caea49aa762",
+        "description": "etnaviv: fix nir validation problem",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "caa107cb8db930bc59cd557a325a6a0bc4a86565",
+        "description": "freedreno/decode: move dependencies up a level",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9c33c5389818bc5035eb4538ea5d3fc1321dd27e",
+        "description": "freedreno/registers: install gzip'd register database",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "62ebd342e67fc0c12b181f91a488fa7a834fff6c",
+        "description": "freedreno/registers: split header build into subdirs",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e59b24121357f33f17519b9e90b46928ade0a290",
+        "description": "freedreno/registers: add .gitignore",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "24f55eb6e808cab74ff21aa809742dc644c5c900",
+        "description": "freedreno/rnn: rework RNN_DEF_PATH construction",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "bf425b7e513804c96f4bd7b71d520e334e9450e2",
+        "description": "freedreno/rnn: also look for .xml.gz",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8efdd388e037cf2d4d3ea1d1168bbf9c99ba0472",
+        "description": "radv: Implement VK_EXT_4444_formats",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
         "sha": "3c2a1af660f13e3598069e07d2fdedffd350017c",
         "description": "anv: Implement VK_EXT_4444_formats",
         "nominated": false,
